@@ -25,3 +25,5 @@ Lastly, the main.java is not a class but rather implements the game. Here the ap
 
 In order to play the game you can download this github and run main.java within the ai package in the latest version of Visual Studio Code. If java is not supported in your VS code there are a number of downloads online to make it supported.
 
+![checkerboard](https://user-images.githubusercontent.com/59486373/103464221-0c803680-4d00-11eb-8d4e-c870c10f87d1.png)
+
