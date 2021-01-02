@@ -17,3 +17,8 @@ That brings me now to heuristic.java that houses the heuristic class. The heuris
 There is an easy heuristic, medium heuristic, and a hard heuristic but the hard heuristic is implemented by default.  The hard heuristic is different based on how many pieces are on the board with differences when there are more than 18 pieces, less than 18 but more than 8, and 8 or less pieces. Essentially, however they are all variations that act on a bonus to go to towards the middle of the board (a valid opening strategy), a score on their defending neighbors, a score on if the pieces will defend their side of the board, and a score that increases if the player in that score has more than or equal to an arbitrary number of pieces than their opponent, specifically min((float)totalPieces/8)) (to be more aggressive when winning).
 
 Lastly, the main.java is not a class but rather implements the game. Here the appropriate questions are asked (e.g. prompts for either player being a computer, specifying the time limit, and starting player turn) and the game goes on until game.end is called. In this case, the turn is switched and if the other player has no legal moves then it prints a draw. Otherwise, the player wins.
+
+<h1>Playing The Game</h1>
+
+In order to play the game you can download this github and run main.java within the ai package in the latest version of Visual Studio Code. If java is not supported in your VS code there are a number of downloads online to make it supported.
+
